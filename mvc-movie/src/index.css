@@ -11,3 +11,7 @@ body{
   color: #fff;
   font-family: "Poppins", sans-serif;
 }
+.container{
+  width: 1200px;
+  background: #fff;
+}
