@@ -12,8 +12,8 @@ const Navbar = () => {
 
       <div className="navbar-left">{/*Divi que guarda a logo do nosso site*/}
 
-        {/* <img src={logo} alt="logo image" /> */}
-        <h1>MVCmovie</h1>
+        <img src={logo} alt="logo image" />
+        {/* <h1>MVCmovie</h1> */}
 
         <ul>
           <li>home</li>
