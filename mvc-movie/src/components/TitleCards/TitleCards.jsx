@@ -30,7 +30,7 @@ const TitleCards = ({title, category}) => {
         {cards_data.map((card, index)=>{{/*Aqui estamos a percorrer a nossa lista de filmes usando o map*/}
 
           return <div className='card' key={index}>
-                 <img src={card.image} />
+                 <img src={card.image} className='big-img'/>
                  <p>{card.name}</p>
           </div>
        
