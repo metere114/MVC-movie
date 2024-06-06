@@ -74,3 +74,15 @@ p{
 .navbar-profile:hover .dropdown{/*Quando tocar no icon azul mostra o nosso dropdown*/
     display: block;
 }
+/*--------logo configuration--------*/
+.mvc-logo{
+    border: 1px solid rgb(98, 24, 24);
+    padding: 2px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #000,red);
+    transition: 2s;
+}
+.mvc-logo:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+} 
