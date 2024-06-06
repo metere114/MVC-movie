@@ -71,6 +71,6 @@ p{
 .dropdown{
     display: none;
 }
-.navbar-profile:hover .dropdown{/*Quando tocar no icon azula mostra o nosso dropdown*/
+.navbar-profile:hover .dropdown{/*Quando tocar no icon azul mostra o nosso dropdown*/
     display: block;
 }
