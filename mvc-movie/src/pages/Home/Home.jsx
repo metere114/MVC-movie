@@ -7,6 +7,7 @@ import play_icon from '../../assets/play_icon.png'
 import info_icon from '../../assets/info_icon.png'
 import TitleCards from '../../components/TitleCards/TitleCards';
 import Footer from '../../components/Footer/Footer';
+import video from '../../assets/video/The Protector   Teaser [HD]   Netflix.mp4'
 
 const Home = () => {
   return (
@@ -14,7 +15,8 @@ const Home = () => {
       <Navbar/>
 
       <div className="hero">{/*dentro desta div esta a configuracao da nossa imagem do fundo*/}
-        <img src={hero_banner} alt="hero image" className='banner-img' />{/*imagem do filme*/}
+        {/*<img src={hero_banner} alt="hero image" className='banner-img' />imagem do filme*/}
+        <video src={video} className='banner-img' autoPlay loop muted></video>
 
         <div className="hero_caption">
           <img src={hero_title} alt="hero title" className='caption-img'/>{/*imagem que mostra o titulo do filme*/}
