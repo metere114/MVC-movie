@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "preview",
+			"path": "mvc-movie",
+			"problemMatcher": [],
+			"label": "npm: preview - mvc-movie",
+			"detail": "vite preview"
+		}
+	]
+}
